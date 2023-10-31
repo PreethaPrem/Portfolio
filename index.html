@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <!--<header class="bar">
+        <a href="#" class="logo"><img src="images/3Dimage.png" alt="logo" width="30" height="30"></a>
+        <div id="menuicon"><i class="ri-menu-line"></i></div>
+        <div >
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#find">Find me</a></li>
+            </ul>
+        </div>
+        
+    </header>-->
+    
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="hi">Hi I'm</div> 
+            
+        </div>
+        <div class="container">
+            <div class="cube">
+                <div style="--x:-1;--y:0;">
+                    <span style="--i:3;" class="one"></span>
+                    <span style="--i:2;" class="two"></span>
+                    <span style="--i:1;" class="three"></span>
+                </div>
+                <div style="--x:0;--y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+                <div style="--x:1;--y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+            </div>
+            <div class="cube">
+                <div style="--x:-1;--y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+                <div style="--x:0;--y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+                <div style="--x:1;--y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+            </div>
+            <div class="cube">
+                <div style="--x:-1;--y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+                <div style="--x:0;--y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+                <div style="--x:1;--y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    <section class="home">
+        <div class="home-text2">
+            <h1>PREETHA</h1></div>
+    </section>
+    <section class="home">
+        <div class="home-text3"><h2><span class=".web">W</span>eb <span class=".web">D</span>esigner and <br><span class=".web">D</span>eveloper</h2></div>
+
+    </section>
+    <section class="about" id="about">
+        <div class="about-content">
+            <div class="ab-img">
+            <div class="about-img">
+                <div class="dots"> </div>
+            </div>
+            </div>
+            <div class="about-text">
+                <div>
+                    <h2>A Little Bit About Me</h2>
+                    <span>Web Designer and Developer!</span>
+                </div>
+                 <p>
+                    I write, design and sometimes make drawings. I'm eager to embark on a journey of creating engaging and user-friendly digital experiences.
+                    I'm excited about keeping up-to-date
+                    with the latest trends and technologies in the web development world. I'm always eager to learn and expand my skill set to tackle new challenges.
+                    I thrive in collaborative environments and enjoy working with cross-functional teams.
+                    My vision is to leverage my skills and knowledge to contribute to innovative web projects and continue growing as a web developer.
+
+                    </p>
+            </div>
+        </div>
+    </section>
+<!--<section class="skills-content" id="skill"><div class="skill-head">Skills</div>
+<div class="skills">
+        <div class="skill">
+            <div class="outer">
+                <div class="inner">
+                    Java
+                    <div id="number1">
+                        
+                    </div>
+                </div>
+            </div>
+            <svg width="80px" height="80px">
+                <linearGradient id="gradient">
+                    <stop offset="0%" stop-color="rgb(43, 229, 186)" />
+                    <stop offset="100%" stop-color="#e8f406" />
+                </linearGradient>
+                <circle class="progress-circle" cx="40" cy="40" r="36" stroke-linecap="round"></circle>
+            </svg>
+        </div>
+        
+        <script>
+            let number1=document.getElementById("number1");
+            const circle = document.querySelector(".progress-circle");
+            let counter1=0;
+            setInterval(()=>{
+                if(counter1==85){
+                    clearInterval();
+                }else
+                { circle.style.strokeDashoffset=225.8292999267578 - (counter1/100)*225.8292999267578;
+                    counter1 +=1;
+                number1.innerHTML=counter1+"%";}
+            },30)
+        </script>
+        <div class="skill">
+            <div class="outer">
+                <div class="inner">
+                    SQL
+                    <div id="number2">
+                       
+                    </div>
+                </div>
+            </div>
+            <svg width="80px" height="80px">
+                <circle class="progress-circle2" cx="40" cy="40" r="36" stroke-linecap="round"></circle>
+            </svg>
+        </div>
+        <script>
+            let number2=document.getElementById("number2");
+            const c2=document.querySelector(".progress-circle2");
+            let counter2=0;
+            setInterval(()=>{
+                if(counter2==80){
+                    clearInterval();
+                }else
+                { c2.style.strokeDashoffset=225.8292999267578 - (counter2/100)*225.8292999267578;
+                    counter2 +=1;
+                number2.innerHTML=counter2+"%";}
+            },30)
+        </script>
+        <div class="skill">
+            <div class="outer">
+                <div class="inner">
+                    Python
+                    <div id="number3">
+                       
+                    </div>
+                </div>
+            </div>
+            <svg width="80px" height="80px">
+                <circle class="progress-circle3" cx="40" cy="40" r="36" stroke-linecap="round"></circle>
+            </svg>
+        </div>
+        <script>
+            let number3=document.getElementById("number3");
+            const c3=document.querySelector(".progress-circle3");
+            let counter3=0;
+            setInterval(()=>{
+                if(counter3==60){
+                    clearInterval();
+                }else
+                { c3.style.strokeDashoffset=225.8292999267578 - (counter3/100)*225.8292999267578;
+                    counter3 +=1;
+                number3.innerHTML=counter3+"%";}
+            },30)
+        </script>
+        <div class="skill">
+            <div class="outer">
+                <div class="inner">
+                    HTML
+                    <div id="number4">
+                       
+                    </div>
+                </div>
+            </div>
+            <svg width="80px" height="80px">
+                <circle class="progress-circle4" cx="40" cy="40" r="36" stroke-linecap="round"></circle>
+            </svg>
+        </div>
+        <script>
+            let number4=document.getElementById("number4");
+            const c4=document.querySelector(".progress-circle4");
+            let counter4=0;
+            setInterval(()=>{
+                if(counter4==85){
+                    clearInterval();
+                }else
+                { c4.style.strokeDashoffset=225.8292999267578 - (counter4/100)*225.8292999267578;
+                    counter4 +=1;
+                number4.innerHTML=counter4+"%";}
+            },30)
+        </script>
+        <div class="skill">
+            <div class="outer">
+                <div class="inner">
+                    CSS
+                    <div id="number5">
+                       
+                    </div>
+                </div>
+            </div>
+            <svg width="80px" height="80px">
+                <circle class="progress-circle5" cx="40" cy="40" r="36" stroke-linecap="round"></circle>
+            </svg>
+        </div>
+        <script>
+            let number5=document.getElementById("number5");
+            const c5=document.querySelector(".progress-circle5");
+            let counter5=0;
+            setInterval(()=>{
+                if(counter5==95){
+                    clearInterval();
+                }else
+                { c5.style.strokeDashoffset=225.8292999267578 - (counter5/100)*225.8292999267578;
+                    counter5 +=1;
+                number5.innerHTML=counter5+"%";}
+            },30)
+        </script>
+          <div class="skill">
+            <div class="outer">
+                <div class="inner">
+                    JavaScript
+                    <div id="number6">
+                       
+                    </div>
+                </div>
+            </div>
+            <svg width="80px" height="80px">
+                <circle class="progress-circle6" cx="40" cy="40" r="36" stroke-linecap="round"></circle>
+            </svg>
+        </div>
+        <script>
+            let number6=document.getElementById("number6");
+            const c6=document.querySelector(".progress-circle6");
+            let counter6=0;
+            setInterval(()=>{
+                if(counter6==70){
+                    clearInterval();
+                }else
+                { c6.style.strokeDashoffset=225.8292999267578 - (counter6/100)*225.8292999267578;
+                    counter6 +=1;
+                number6.innerHTML=counter6+"%";}
+            },30)
+        </script>
+          <div class="skill">
+            <div class="outer">
+                <div class="inner">
+                    Bootstrap
+                    <div id="number7">
+                       
+                    </div>
+                </div>
+            </div>
+            <svg width="80px" height="80px">
+                <circle class="progress-circle7" cx="40" cy="40" r="36" stroke-linecap="round"></circle>
+            </svg>
+        </div>
+        <script>
+            let number7=document.getElementById("number7");
+            const c7=document.querySelector(".progress-circle7");
+            let counter7=0;
+            setInterval(()=>{
+                if(counter7==60){
+                    clearInterval();
+                }else
+                { c7.style.strokeDashoffset=225.8292999267578 - (counter7/100)*225.8292999267578;
+                    counter7 +=1;
+                number7.innerHTML=counter7+"%";}
+            },30)
+        </script>
+          <div class="skill">
+            <div class="outer">
+                <div class="inner">
+                    Git and Github
+                    <div id="number8">
+                       
+                    </div>
+                </div>
+            </div>
+            <svg width="80px" height="80px">
+                <circle class="progress-circle8" cx="40" cy="40" r="36" stroke-linecap="round"></circle>
+            </svg>
+        </div>
+        <script>
+            let number8=document.getElementById("number8");
+            const c8=document.querySelector(".progress-circle8");
+            let counter8=0;
+            setInterval(()=>{
+                if(counter8==75){
+                    clearInterval();
+                }else
+                { c8.style.strokeDashoffset=225.8292999267578 - (counter8/100)*225.8292999267578;
+                    counter8 +=1;
+                number8.innerHTML=counter8+"%";}
+            },30)
+        </script>
+</div>
+</section>-->
+
+<section class="projects" id="projects">
+    <div class="pro-heading">
+       Here are some of my Projects
+    </div>
+    <div class="pro-content">
+        <div class="pro-box">
+            <a href="#"><img src="images/portfolioscreenshot.png" ></a>
+            <p>My Personal Porfolio Website</p>
+        </div>
+        <div class="pro-box">
+            <a href="#"><img src="images/dashboard.png" ></a>
+            <p>Admin Dashboard using Java Swing UI Design</p>
+        </div>
+        <div class="pro-box">
+            <a href="#"><img src="images/javasql.png" x></a>
+            <p>Login and Registration using JSP + Servlet + JDBC +MySQL</p>
+        </div>
+    </div>
+
+
+</section>
+<section class="find" id="find">
+    <div class="find-heading">
+        Find Me
+    </div>
+    <div class="social">
+        <div><a href="https://github.com/PreethaPrem"><i class="ri-github-line"></i></a></div>
+        <div><a href="https://www.linkedin.com/in/preetha-p-642382266"><i class="ri-linkedin-box-line"></i></a></div>
+        <div><a href="https://instagram.com/prem_preetha?igshid=OGY3MTU3OGY1Mw=="><i class="ri-instagram-line"></i></a></div>
+    </div>
+</section>
+<script src="app.js"></script>
+</body>
+</html>
