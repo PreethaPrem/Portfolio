@@ -23,8 +23,8 @@ window.addEventListener("scroll",()=>{
     cube3.style.transform= `translateX(${offsetY* 0.4}px)`;
     hometext2.style.transform= `translatex(calc(-100vh + ${offsetY}px))`;
     hometext3.style.transform= `translatex(calc(110vh - ${offsetY}px))`;
-    aboutimg.style.transform= `translate(calc(-110vh + ${offsetY*0.4}px),calc(-110vh + ${offsetY*0.4}px))`;
-    project.style.transform= `translatey(calc(-140vh + ${offsetY*0.6}px))`;
+    aboutimg.style.transform= `translate(calc(-120vh + ${offsetY*0.4}px),calc(-120vh + ${offsetY*0.4}px))`;
+    project.style.transform= `translatey(calc(-150vh + ${offsetY*0.6}px))`;
 });
 /**aboutimg.style.transform= `translate(calc(100vh - ${offsetY}px),calc(110vh - ${offsetY}px))`;
     aboutcon.style.transform= `translatex(calc(-110vh + ${offsetY}px))`;
