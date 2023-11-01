@@ -760,7 +760,6 @@ text-align: justify;
         width: 10rem;
         height: 30vh;
         background-size: 10rem 30vh;
-        transform: none !important;
     }
     .about-img::before{
         background-size: 10rem 30vh;
