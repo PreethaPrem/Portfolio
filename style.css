@@ -598,10 +598,6 @@ text-align: justify;
         background-size: 15rem 35vh;
     }
     
-    .find{
-        min-height: 50vh;
-
-    }
 }
 @media screen and (max-width:500px){
     
@@ -671,12 +667,7 @@ text-align: justify;
     --fs-sm:0.7rem;
         
     }
-    .home:nth-child(2){
-        min-height: 25vh;
-    }
-    .home:nth-child(3){
-        min-height: 25vh;
-    }
+   
    
     .container{
         padding-left: 3rem;
